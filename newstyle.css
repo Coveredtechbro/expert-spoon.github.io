@@ -1,0 +1,98 @@
+/*/////////////////////////
+//BOOTSTRAP WEBSITE 
+//THE AJAO ALIMAT
+////////////////////////*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.current{
+    text-align: left;
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+#main-navigation{
+    padding: 10px;
+    
+}
+#middle-content{
+    width: 60%;
+    margin: auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 15px;
+    
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+    }
+
+#main-navigation a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+    
+}
+
+
+.button {
+  background-color:coral; /* coral */
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button 1{
+  background-color: coral; 
+  color: white; 
+  border: 2px solid coral;
+}
+
+
+
+.bottom-content{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    width: 100%;
+    border: 15px;
+     position: absolute;
+    background-color: coral;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    }
